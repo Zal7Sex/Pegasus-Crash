@@ -26,9 +26,9 @@ jobs:
 
       - name: Generate android folder
         run: |
-          flutter create --template=app PegasusCore
-          cp -r PegasusCore/android .
-          rm -rf PegasusCore
+          flutter create --template=app pegasus_crash
+          cp -r pegasus_crash/android .
+          rm -rf pegasus_crash
 
       - name: Install dependencies
         run: flutter pub get
