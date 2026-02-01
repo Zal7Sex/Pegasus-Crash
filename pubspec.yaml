@@ -1,0 +1,53 @@
+# File: /storage/emulated/0/Download/Tester/pubspec.yaml
+name: pegasus_crash
+description: WhatsApp Bug Tool
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Icons
+  flutter_svg: ^2.0.9
+  animated_text_kit: ^4.2.2
+  shimmer: ^3.0.0
+  
+  # HTTP & Networking
+  http: ^1.1.0
+  dio: ^5.3.3
+  web_socket_channel: ^2.4.0
+  
+  # Permissions
+  permission_handler: ^10.4.4
+  overlay_support: ^1.2.1
+  
+  # Device Features
+  torch: ^2.0.0
+  wallpaper_manager: ^1.0.0
+  vibration: ^1.7.5
+  wakelock: ^0.6.2
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  
+  # Utilities
+  provider: ^6.1.1
+  logger: ^2.0.2
+  connectivity_plus: ^5.0.2
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/icons/
+    - assets/fonts/
+  
+  fonts:
+    - family: ShareTechMono
+      fonts:
+        - asset: assets/fonts/ShareTechMono-Regular.ttf
